@@ -12,7 +12,7 @@ loop_start:
     jg loop_end 
 
     mov %ecx, %edx      #edx = i
-    imul %ecx, %edx     #edx = i * i
+    imul %edx, %edx     #edx = i * i
     add %edx, %eax      #sum += i * i
 
     inc %ecx 
