@@ -22,7 +22,7 @@ int findSalariesSum(EMPLOYEE e[], int size);            //this function should f
 int main(){
     
     // TestCase-1
-    //printf("The sum is: %d\n",sumOfPowers(3));
+    printf("The sum is: %d\n",sumOfPowers(3));
 
     // TestCase-2
     /*
