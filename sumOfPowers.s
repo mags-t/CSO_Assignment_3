@@ -11,7 +11,7 @@ loop_start:
     cmp %edi, %ecx      #compare i and n
     jg loop_end 
 
-    mov %ecs, %edx      #edx = i
+    mov %ecx, %edx      #edx = i
     imul %ecx, %edx     #edx = i * i
     add %edx, %eax      #sum += i * i
 
